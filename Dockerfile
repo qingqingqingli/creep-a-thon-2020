@@ -9,18 +9,12 @@ COPY venmo.tar.xz /tmp
 
 # HOW TO GET EVERYTHING UP AND RUNNING
 
-# docker build -t IMAGE_NAME /path/to/dockerfile
-
-# docker run -p 27017:27017 --rm -d IMAGE_NAME
-
 # docker ps -> copy name of container
 
-# docker exec -it CONTAINER_NAME /bin/bash
+# docker-compose exec CONTAINER_NAME /bin/bash
 
 # cd tmp
 
 # tar xf venmo.tar.xz
 
-# cd dump/test
-
-# mongorestore --collection venmo --db test venmo.bson
+# mongorestore --host localhost --port 27017 -u admin -p password --authenticationDatabase admin --collection venmo --db test dump/test/venmo.bson
