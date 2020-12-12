@@ -1,7 +1,8 @@
 # creep-a-thon-2020
+> Empower Venmo users by reaching & informing them about the security risk
 
 ![Alt text](img/leo.jpg?raw=true "Leo is awesome")
-
+> Follow us on instagram: https://www.instagram.com/setyourvenmoprivate/
 ## Table of Contents
 
 - [Background](#background)
