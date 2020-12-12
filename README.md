@@ -111,7 +111,7 @@ Interesting reads:
 
 Do you want to make some awesome memes using venmo public data and want
 to make people more aware that their financial transaction data is available
-for everyone too see?
+for everyone too see? Read the [contribution md](CONTRIBUTION.md) and start sharing!
 
 
 ## Aknowledgements :raised_hands:
