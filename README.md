@@ -26,7 +26,7 @@ For the whole system to work, some tools have to be installed. Make sure
 * Python3.6: https://www.python.org/downloads/
 * Docker:	 https://docs.docker.com/get-docker/
 
-To install the necessary packages, run the following command.
+To install the necessary python packages, run the following command.
 ```bash
 > python3 -m pip install pandas jupyterlab pymongo
 ```
