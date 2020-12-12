@@ -1,6 +1,6 @@
 # creep-a-ton-2020
 
-![Alt text](img/leo.png?raw=true "Title")
+![Alt text](img/leo2.jpg?raw=true "Title")
 
 ## Table of Contents
 
