@@ -1,6 +1,6 @@
 # creep-a-thon-2020
 
-![Alt text](img/leo.jpg?raw=true "Title")
+![Alt text](img/leo.jpg?raw=true "Leo is awesome")
 
 ## Table of Contents
 
@@ -31,13 +31,13 @@ For the whole system to work, some tools have to be installed. Make sure
 * Python3.6: https://www.python.org/downloads/
 * Docker: https://docs.docker.com/get-docker/
 
-To install the necessary packages, run the following command.
+To install the necessary packages, run the following command on your host computer:
 ```bash
 > python3 -m pip install pandas jupyterlab pymongo
 ```
 
 We use MongoDB as a main database because the dataset is provided in the
-form of a .bson restore file. We use metabase as an interface to the dataset.
+form of a .bson restore file. We use metabase as an easy interface to the dataset.
 **Make sure you move the venmo.tar.xz file into the cloned repository root directory so it sits next to the Dockerfile.**
 
 To get mongodb and metabase up and running, run the following command:
@@ -45,7 +45,7 @@ To get mongodb and metabase up and running, run the following command:
 > docker-compose up -d
 ```
 
-This should start both containers. After this you'll have to manually untar
+This should start both containers. **Metabase might take around 15 seconds too start so don't worry if you can not immediately reach it**. After this you'll have to manually untar
 the file inside of the container and restore the database using the .bson file. The following commands will help you through this:
 ```bash
 > docker-compose exec mongo /bin/bash
@@ -70,13 +70,25 @@ web server using the following command:
 python3 -m jupyterlab
 ```
 
+Metabase runs on localhost port 3000 so going to http://localhost:3000 will get you too the login screen. Going through to initial setup, you will need the following information when adding the database:
+| Option        | Value  |      
+| ------------- |:-------------:|
+| Database type     | right-aligned |
+| Name      | venmo-dataset      |
+| Host | mongo      |
+| Database name | flatten      |
+| Port | 27017      |
+| username | admin      |
+| password | password      |
+| Authentication Database | admin |
+
 Now follow the following steps:
 * Build up your new mongodb collection using the flattended out transactions.
 * Find a nice transaction with a funny description
 * Make an awesome meme about using a tool like [this](http://apimeme.com/) or automate it with a [REST API](https://rapidapi.com/meme-generator-api-meme-generator-api-default/api/meme-generator)
 * Share it on instagram with the hashtag **#SetYourVenmoPrivate**
 
-
+![Alt text](img/insta.jpg?raw=true "https://www.instagram.com/setyourvenmoprivate/")
 
 ## Related Efforts
 
