@@ -26,7 +26,7 @@ For the whole system to work, some tools have to be installed. Make sure
 * Python3.6: https://www.python.org/downloads/
 * Docker:	 https://docs.docker.com/get-docker/
 
-To install the necessary python packages, run the following command.
+To install the necessary packages, run the following command.
 ```bash
 > python3 -m pip install pandas jupyterlab pymongo
 ```
@@ -69,6 +69,7 @@ Now follow the following steps:
 * Build up your new mongodb collection using the flattended out transactions.
 * Find a nice transaction with a funny description
 * Make an awesome meme about using a tool like [this](http://apimeme.com/) or automate it with a [REST API](https://rapidapi.com/meme-generator-api-meme-generator-api-default/api/meme-generator)
+* Share it on instagram with the hashtag **#SetYourVenmoPrivate**
 
 ## Related Efforts
 
@@ -93,9 +94,9 @@ to make people more aware that their financial transaction data is available
 for everyone too see?
 
 
-## Contributions
+## Aknowledgements :raised_hands:
 
-
+Thanks to [Codam](https://www.codam.nl/en/) for organising the Creep-a-thon in collaberation with [Mozilla](https://www.mozilla.org/en-US/).
 
 ## License
 
