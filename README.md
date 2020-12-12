@@ -74,7 +74,7 @@ python3 -m jupyterlab
 Metabase runs on localhost port 3000 so going to http://localhost:3000 will get you too the login screen. Going through to initial setup, you will need the following information when adding the database:
 | Option        | Value  |      
 | ------------- |:-------------:|
-| Database type     | right-aligned |
+| Database type     | MongoDB |
 | Name      | venmo-dataset      |
 | Host | mongo      |
 | Database name | flatten      |
