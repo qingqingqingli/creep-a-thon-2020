@@ -1,4 +1,4 @@
-# creep-a-ton-2020
+# creep-a-thon-2020
 
 ![Alt text](img/leo.jpg?raw=true "Title")
 
@@ -65,6 +65,11 @@ web server using the following command:
 python3 -m jupyterlab
 ```
 
+Now follow the following steps:
+* Build up your new mongodb collection using the flattended out transactions.
+* Find a nice transaction with a funny description
+* Make an awesome meme about using a tool like [this](http://apimeme.com/) or automate it with a [REST API](https://rapidapi.com/meme-generator-api-meme-generator-api-default/api/meme-generator)
+
 ## Related Efforts
 
 @01fade told a story about the lives of 5 unsuspecting humans.
@@ -77,13 +82,21 @@ Interesting reads:
 
 ## Maintainers
 
-@jesseVDwolf
-@aprilmayjune135
-@qingqingqingli
+[@jesseVDwolf](https://github.com/jesseVDwolf)
+[@aprilmayjune135](https://github.com/aprilmayjune135)
+[@qingqingqingli](https://github.com/qingqingqingli)
 
 ## Contributing
 
-You?
+Do you want to make some awesome memes using venmo public data and want
+to make people more aware that their financial transaction data is available
+for everyone too see?
+
+
+## Contributions
+
+
 
 ## License
 
+[MIT](LICENSE) © Jesse van der Wolf
