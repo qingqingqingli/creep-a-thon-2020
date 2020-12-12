@@ -14,17 +14,22 @@
 
 ## Background
 
+The data of Venmo's users are public by default. Venmo was launched in 2009, targeting friends that needed an easy way to split their bills. In the first quarter of 2018, Venmo handled $12 billion in transactions. Currently, Venmo has over 50 million users, of which 83% are below 34 years old. Their young demographic is often unaware of the fact that their transaction history, including username, profile picture, and the notes that come with their payments are out there for the world to see. In 2019, Mozilla and EFF (Electronic Frontier Foundation) have sent a public letter to Venmo, in which they state their privacy concerns regarding the data of Venmo's users. Since then, Venmo has only limited the rate of use of its API. Today, there exists a dataset, published by Dan Salmon, an information security grad student. This dataset contains around seven million transactions.
+
+On December 12th, Codam students were challenged by Mozilla to present a revealing story found within the dataset published by [Dan Salmon](https://github.com/sa7mon/venmo-data). This challenge is called the "Creep-a-Thon". We are being graded on on three criteria: Open Source Implementation, Storytelling, and Privacy Recommendations.
+
+When Venmo users create an account, their data is public, unless you change that in the settings. Venmo is unwilling make the data of their users private by default. That's where our solution comes in to play. To reach Venmo's young demopgraphic, we decided we had to be where their users are. That's why we have created an Instagram account (@setyourvenmoprivate), where we post memes that use notes that real people have used by paying with Venmo. Our message is to make Venmo users aware of the fact that their data is public, and we encourage them to change this setting to private. You can join us in the making of memes using and improving this small set of tools we made in this repository. 
 
 ## Install
 
-The dataset used is provided by researcher @sa7mon from his [venmo-data repository](https://github.com/sa7mon/venmo-data). To automatically have
+The dataset used is provided by researcher [@sa7mon](https://github.com/sa7mon) from his [venmo-data repository](https://github.com/sa7mon/venmo-data). To automatically have
 the compressed dataset file copied into the container, you'll have to 
 download the *venmo.tar.xz* file from the [google drive](https://drive.google.com/drive/folders/1m59TMADiwk3gArT-teUUOBlSKokq51ZL?usp=sharing)
 
 For the whole system to work, some tools have to be installed. Make sure
 *docker-compose* is installed with docker and *pip* is installed with python.
 * Python3.6: https://www.python.org/downloads/
-* Docker:	 https://docs.docker.com/get-docker/
+* Docker: https://docs.docker.com/get-docker/
 
 To install the necessary packages, run the following command.
 ```bash
@@ -70,6 +75,8 @@ Now follow the following steps:
 * Find a nice transaction with a funny description
 * Make an awesome meme about using a tool like [this](http://apimeme.com/) or automate it with a [REST API](https://rapidapi.com/meme-generator-api-meme-generator-api-default/api/meme-generator)
 * Share it on instagram with the hashtag **#SetYourVenmoPrivate**
+
+
 
 ## Related Efforts
 
