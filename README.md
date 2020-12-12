@@ -1,15 +1,16 @@
 # creep-a-ton-2020
 
-## Ideas
-The payment description:
-* Warn the user about certain keywords that might
-make it.
+## Table of Contents
 
-User story:
-* Make a custom story for a venmo user based on
-public data
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+	- [Generator](#generator)
+- [Badge](#badge)
+- [Example Readmes](#example-readmes)
+- [Related Efforts](#related-efforts)
+- [Maintainers](#maintainers)
+- [Contributing](#contributing)
+- [License](#license)
 
-Sending emails / sending facebook message:
-* Create a custom templated mail for each venmo user.
-* if found on facebook:
-	- Automate sending a message to specified user
+
