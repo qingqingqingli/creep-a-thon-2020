@@ -88,7 +88,7 @@ Now follow the following steps:
 * Make an awesome meme about using a tool like [this](http://apimeme.com/) or automate it with a [REST API](https://rapidapi.com/meme-generator-api-meme-generator-api-default/api/meme-generator)
 * Share it on instagram with the hashtag **#SetYourVenmoPrivate**
 
-![Alt text](img/insta.jpg?raw=true "https://www.instagram.com/setyourvenmoprivate/")
+![https://www.instagram.com/setyourvenmoprivate/](img/insta.png?raw=true "Social Media")
 
 ## Related Efforts
 
