@@ -1,5 +1,6 @@
 # creep-a-thon-2020
 > Empower Venmo users by reaching & informing them about the security risk
+> Brought to you by team MI4 (@jesseVDwolf @gbouwen @aprilmayjune135 @qingqingqingli)
 
 ![Alt text](img/leo.jpg?raw=true "Leo is awesome")
 > Follow us on instagram: https://www.instagram.com/setyourvenmoprivate/
